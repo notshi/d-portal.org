@@ -1,6 +1,6 @@
 {
- "_dirname": "/d-portal.org/spa",
- "_filename": "/d-portal.org/spa",
+ "_dirname": "{_root}spa",
+ "_filename": "{_root}spa",
  "_flags": {
   "body": {
    "trim": "ends"
@@ -33,21 +33,10 @@
    "form": "json"
   }
  },
- "_include_json": {
-  "dirname": "spa",
-  "exclude": [
-   "cmn",
-   "fra",
-   "hin",
-   "jpn",
-   "spa"
-  ],
-  "include": [
-   ""
-  ]
- },
+ "_include_json": "",
  "_output_filename": "spa/",
- "_root": "/d-portal.org/",
+ "_root": "../",
+ "_site": "{_root}",
  "_sourcename": "spa/.",
  "about_link_text": "Acerca\n",
  "about_paragraph10_text": "DI está financiando la fase actual del desarrollo y la preparación hasta el final de agosto 2014 Si usted está interesado en la financiación de parte de la elaboración en curso de d- portal , por favor póngase en contacto con <a href=\"mailto:support@iatistandard.org\" target=\"_blank\" class=\"co\">support@iatistandard.org</a>\n",

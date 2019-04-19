@@ -2,7 +2,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Frequently Asked Questions: d-portal</title>
-	<script src="/d-portal.org/jslib/jquery.js"></script>
+	<script src="./jslib/jquery.js"></script>
 	<script>
 			$(function(){
 				$('a.topics.a').addClass("on");
@@ -80,7 +80,7 @@ strong, b, .bold		{font-weight:bold; color:inherit;}
 	============================================= */
 .portal					{-moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; display:table; width:100%; height:100%;}
 .main_wrap				{width:100%; min-width:1040px; padding:0px; display:table-cell; background-color:rgba(255,255,255,0.4);}
-#background_image	 	{width:100%; height:100%; position:fixed; top:0; left:0; z-index:-1; background-image:url('/d-portal.org/art/mexico_background_image.jpg'); background-repeat:no-repeat; background-position:center center; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;}
+#background_image	 	{width:100%; height:100%; position:fixed; top:0; left:0; z-index:-1; background-image:url('./art/mexico_background_image.jpg'); background-repeat:no-repeat; background-position:center center; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;}
 .overlay				{width:100%; height:100%; background-color:rgba(46,41,6,0.6); position:relative;}	/* Overlay colour for background image */
 iati-activity			{margin-bottom:40px;}	/* Fixes too-large bottom margin during only this instance */
 iati-activity:after 	{content:""; padding:0; display:initial;}	/* Takes away content since footer is included on site */
@@ -171,7 +171,7 @@ a.feedback_txt, #more_feedback_info	{color:#fff; display:inline-block; vertical-
 
 /*	Generator link - INDEX PAGE
 	============================================= */
-.screen_generator		{display:block; background:url('/d-portal.org/art/generator.png')no-repeat; background-size:540px 562px; width:540px; height:200px;}
+.screen_generator		{display:block; background:url('./art/generator.png')no-repeat; background-size:540px 562px; width:540px; height:200px;}
 a.description_wrap.bigbutton						{display:block; width:878px; margin-bottom:40px; padding:40px 40px 0 40px; background-color:rgba(255,255,255,0); border:1px solid #fff;}
 a.description_wrap.bigbutton:hover					{background-color:rgba(255,255,255,0.1);}
 a.description_wrap.bigbutton span.description		{margin:0; width:340px; padding:0; background:transparent; display:inline-block; vertical-align:top;}
@@ -381,22 +381,22 @@ a.beige:hover			{color:#FFF;}
 	<table class="head">
 		<tr>
 			<td class="logo">
-				<a href="/d-portal.org/" title="Back to d-portal
+				<a href="./" title="Back to d-portal
 ">
-					<img src="/d-portal.org/art/dp_logo.60.png" alt="d-portal logo
+					<img src="./art/dp_logo.60.png" alt="d-portal logo
 " width="150" height="60"/><span class="badge beta">BETA</span>
 
 				</a>
 			</td>
-			<td class="dplinks"><a href="/d-portal.org/about.html" class="top install">About
+			<td class="dplinks"><a href="./about.html" class="top install">About
 </a></td>
-			<td class="dplinks"><a href="/d-portal.org/faq.html" class="top faq">FAQ</a></td>
-			<td class="dplinks"><a href="/d-portal.org/ctrack.html#view=generator" class="top savi">Generator</a></td>
-			<td class="dplinks"><a href="/d-portal.org/ctrack.html#view=dash" class="top dash">Dash</a></td>
-			<td class="dplinks"><a href="/d-portal.org/news" class="top news">News
+			<td class="dplinks"><a href="./faq.html" class="top faq">FAQ</a></td>
+			<td class="dplinks"><a href="./ctrack.html#view=generator" class="top savi">Generator</a></td>
+			<td class="dplinks"><a href="./ctrack.html#view=dash" class="top dash">Dash</a></td>
+			<td class="dplinks"><a href="./news" class="top news">News
 </a></td>
 			<td class="dplinks"><a href="https://github.com/devinit/D-Portal" class="top hub">Github</a></td>
-			<td class="dplinks"><a href="/d-portal.org/" class="top install">Home
+			<td class="dplinks"><a href="./" class="top install">Home
 </a></td>
 			<td class="options"><form action="">
 <select id="tongue_select" name="tongue">
@@ -426,7 +426,7 @@ a.beige:hover			{color:#FFF;}
 		});
 		$('#tongue_select').bind('change', function ()
 		{
-			var t="/d-portal.org/"+$(this).val()+"/";if(t=="/d-portal.org/eng/"){t="/d-portal.org/";}
+			var t="./"+$(this).val()+"/";if(t=="./eng/"){t="./";}
 			var url = t+"faq.html";
 			window.location = url; // redirect
 			return false;

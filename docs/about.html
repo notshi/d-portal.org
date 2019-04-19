@@ -3,7 +3,7 @@
 	<meta charset="UTF-8">
 	<title>About d-portal.org
 </title>
-	<script src="/d-portal.org/jslib/jquery.js"></script>
+	<script src="./jslib/jquery.js"></script>
 	<style>
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{border:0;font-size:100%;font:inherit;vertical-align:top;margin:0;padding:0}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}table{border-collapse:collapse;border-spacing:0}	/* Resets */
 
@@ -32,7 +32,7 @@ strong, b, .bold		{font-weight:bold; color:inherit;}
 	============================================= */
 .portal					{-moz-box-sizing:border-box; -webkit-box-sizing:border-box; box-sizing:border-box; display:table; width:100%; height:100%;}
 .main_wrap				{width:100%; min-width:1040px; padding:0px; display:table-cell; background-color:rgba(255,255,255,0.4);}
-#background_image	 	{width:100%; height:100%; position:fixed; top:0; left:0; z-index:-1; background-image:url('/d-portal.org/art/mexico_background_image.jpg'); background-repeat:no-repeat; background-position:center center; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;}
+#background_image	 	{width:100%; height:100%; position:fixed; top:0; left:0; z-index:-1; background-image:url('./art/mexico_background_image.jpg'); background-repeat:no-repeat; background-position:center center; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;}
 .overlay				{width:100%; height:100%; background-color:rgba(46,41,6,0.6); position:relative;}	/* Overlay colour for background image */
 iati-activity			{margin-bottom:40px;}	/* Fixes too-large bottom margin during only this instance */
 iati-activity:after 	{content:""; padding:0; display:initial;}	/* Takes away content since footer is included on site */
@@ -123,7 +123,7 @@ a.feedback_txt, #more_feedback_info	{color:#fff; display:inline-block; vertical-
 
 /*	Generator link - INDEX PAGE
 	============================================= */
-.screen_generator		{display:block; background:url('/d-portal.org/art/generator.png')no-repeat; background-size:540px 562px; width:540px; height:200px;}
+.screen_generator		{display:block; background:url('./art/generator.png')no-repeat; background-size:540px 562px; width:540px; height:200px;}
 a.description_wrap.bigbutton						{display:block; width:878px; margin-bottom:40px; padding:40px 40px 0 40px; background-color:rgba(255,255,255,0); border:1px solid #fff;}
 a.description_wrap.bigbutton:hover					{background-color:rgba(255,255,255,0.1);}
 a.description_wrap.bigbutton span.description		{margin:0; width:340px; padding:0; background:transparent; display:inline-block; vertical-align:top;}
@@ -314,7 +314,7 @@ a.beige:hover			{color:#FFF;}
 }
 
 
-#background_image	{width:100%; height:100%; position:fixed; top:0; left:0; z-index:-1; background-image:url('/d-portal.org/art/backgroundimage.jpg'); background-repeat:no-repeat; background-position:center center; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;}
+#background_image	{width:100%; height:100%; position:fixed; top:0; left:0; z-index:-1; background-image:url('./art/backgroundimage.jpg'); background-repeat:no-repeat; background-position:center center; -webkit-background-size:cover; -moz-background-size:cover; -o-background-size:cover; background-size:cover;}
 .overlay			{width:100%; height:100%; background-color:rgba(19, 16, 1, 0.8);}	/* Overlay colour for background image */
 a					{-webkit-transition:all .2s ease-in-out; -moz-transition:all .2s ease-in-out; -o-transition:all .2s ease-in-out; -ms-transition:all .2s ease-in-out; transition:all .2s ease-in-out; cursor:pointer;}
 img					{-webkit-filter:brightness(100%); filter:brightness(100%);}
@@ -340,11 +340,11 @@ img					{-webkit-filter:brightness(100%); filter:brightness(100%);}
 .about_wrap.sources	{background-color:rgba(10, 14, 20, 0.35); padding:80px 0 100px 0;}
 .about_wrap.git		{background-color:#fff; padding:160px 0 0 0;}
 .screen				{text-align:center; width:960px; height:400px;}
-.screen.dash		{background:url('/d-portal.org/art/dash.png')no-repeat;}
-.screen.generator	{background:url('/d-portal.org/art/generator.png')no-repeat;}
-.screen.news		{background:url('/d-portal.org/art/news.jpg')no-repeat;}
-.screen.faq			{background:url('/d-portal.org/art/faq.png')no-repeat;}
-.screen.discover	{background:url('/d-portal.org/art/discover.jpg')no-repeat;}
+.screen.dash		{background:url('./art/dash.png')no-repeat;}
+.screen.generator	{background:url('./art/generator.png')no-repeat;}
+.screen.news		{background:url('./art/news.jpg')no-repeat;}
+.screen.faq			{background:url('./art/faq.png')no-repeat;}
+.screen.discover	{background:url('./art/discover.jpg')no-repeat;}
 
 
 /*	Text styles
@@ -452,22 +452,22 @@ a.git:hover	{background-color:#66b4ff; text-decoration:none;}
 	<table class="head">
 		<tr>
 			<td class="logo">
-				<a href="/d-portal.org/" title="Back to d-portal
+				<a href="./" title="Back to d-portal
 ">
-					<img src="/d-portal.org/art/dp_logo.60.png" alt="d-portal logo
+					<img src="./art/dp_logo.60.png" alt="d-portal logo
 " width="150" height="60"/><span class="badge beta">BETA</span>
 
 				</a>
 			</td>
-			<td class="dplinks"><a href="/d-portal.org/about.html" class="top install">About
+			<td class="dplinks"><a href="./about.html" class="top install">About
 </a></td>
-			<td class="dplinks"><a href="/d-portal.org/faq.html" class="top faq">FAQ</a></td>
-			<td class="dplinks"><a href="/d-portal.org/ctrack.html#view=generator" class="top savi">Generator</a></td>
-			<td class="dplinks"><a href="/d-portal.org/ctrack.html#view=dash" class="top dash">Dash</a></td>
-			<td class="dplinks"><a href="/d-portal.org/news" class="top news">News
+			<td class="dplinks"><a href="./faq.html" class="top faq">FAQ</a></td>
+			<td class="dplinks"><a href="./ctrack.html#view=generator" class="top savi">Generator</a></td>
+			<td class="dplinks"><a href="./ctrack.html#view=dash" class="top dash">Dash</a></td>
+			<td class="dplinks"><a href="./news" class="top news">News
 </a></td>
 			<td class="dplinks"><a href="https://github.com/devinit/D-Portal" class="top hub">Github</a></td>
-			<td class="dplinks"><a href="/d-portal.org/" class="top install">Home
+			<td class="dplinks"><a href="./" class="top install">Home
 </a></td>
 			<td class="options"><form action="">
 <select id="tongue_select" name="tongue">
@@ -497,7 +497,7 @@ a.git:hover	{background-color:#66b4ff; text-decoration:none;}
 		});
 		$('#tongue_select').bind('change', function ()
 		{
-			var t="/d-portal.org/"+$(this).val()+"/";if(t=="/d-portal.org/eng/"){t="/d-portal.org/";}
+			var t="./"+$(this).val()+"/";if(t=="./eng/"){t="./";}
 			var url = t+"about.html";
 			window.location = url; // redirect
 			return false;
@@ -511,7 +511,7 @@ a.git:hover	{background-color:#66b4ff; text-decoration:none;}
 
 	<div class="about_wrap start">
 	<div class="default">
-		<div class="mid_wrap"><img src="/d-portal.org/art/dp_logo.400.png" alt="d-portal.org logo" width="400" height="400"/></div><div class="mid_wrap">
+		<div class="mid_wrap"><img src="./art/dp_logo.400.png" alt="d-portal.org logo" width="400" height="400"/></div><div class="mid_wrap">
 			<div class="about_head">
 				<h1>What is it?
 </h1>
@@ -543,7 +543,7 @@ a.git:hover	{background-color:#66b4ff; text-decoration:none;}
 </p>
 			<p>Other sites based on d-portal will be listed below, <a href="mailto:support@iatistandard.org" target="_blank" class="co">get in touch to add yours</a>!
 </p>
-			<p><a href="http://open.undg.org/" target="_blank"><img src="/d-portal.org/art/UNDG_logo.png" alt="UNDG Transparency Portal logo" width="406" height="100"></a>
+			<p><a href="http://open.undg.org/" target="_blank"><img src="./art/UNDG_logo.png" alt="UNDG Transparency Portal logo" width="406" height="100"></a>
 </p>
 		</div>	
 	</div>
@@ -569,7 +569,7 @@ a.git:hover	{background-color:#66b4ff; text-decoration:none;}
 	<span id="savi"></span>
 <div class="about_wrap sav">
 	<div class="default">
-		<div class="mid_wrap"><img src="/d-portal.org/art/savilogo.400.png" alt="SAVi logo" width="400" height="400"/></div><div class="mid_wrap">
+		<div class="mid_wrap"><img src="./art/savilogo.400.png" alt="SAVi logo" width="400" height="400"/></div><div class="mid_wrap">
 			<div class="sav_head">
 				SAVi is a simple activity viewer for IATI XML that you can view in real time, online, in your favourite browser.
 
@@ -585,11 +585,11 @@ a.git:hover	{background-color:#66b4ff; text-decoration:none;}
 		<div class="l0"></div>
 		<div class="l1"></div><div class="l2"></div><div class="l3"></div><div class="l4"></div>
 		<div class="dq_wrap">
-			<img src="/d-portal.org/art/dslogo.400.png" alt="DSTORE logo" width="400" height="100"/>
+			<img src="./art/dslogo.400.png" alt="DSTORE logo" width="400" height="100"/>
 			<div class="dq_info">dstore subsidises the IATI Registry with an optimized nodejs + SQLite version for use in real time queries.
 </div>
 		</div><div class="dq_wrap">
-			<img src="/d-portal.org/art/qlogo.400.png" alt="Q logo" width="400" height="100"/>
+			<img src="./art/qlogo.400.png" alt="Q logo" width="400" height="100"/>
 			<div class="dq_info">Q allows you to query information you need via simple but complex filters.
 </div>
 		</div>
@@ -813,7 +813,7 @@ a.git:hover	{background-color:#66b4ff; text-decoration:none;}
 			</div>
 		</div><div class="octocat">
 			<a href="https://github.com/devinit/D-Portal" target="_blank" title="Visit d-portal.org on Github
-"><img src="/d-portal.org/art/Octocat.png" alt="Octocat for Github logo" width="300" height="249"/></a>
+"><img src="./art/Octocat.png" alt="Octocat for Github logo" width="300" height="249"/></a>
 		</div>
 	</div>
 </div>

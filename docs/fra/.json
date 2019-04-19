@@ -1,6 +1,6 @@
 {
- "_dirname": "/d-portal.org/fra",
- "_filename": "/d-portal.org/fra",
+ "_dirname": "{_root}fra",
+ "_filename": "{_root}fra",
  "_flags": {
   "body": {
    "trim": "ends"
@@ -33,21 +33,10 @@
    "form": "json"
   }
  },
- "_include_json": {
-  "dirname": "fra",
-  "exclude": [
-   "cmn",
-   "fra",
-   "hin",
-   "jpn",
-   "spa"
-  ],
-  "include": [
-   ""
-  ]
- },
+ "_include_json": "",
  "_output_filename": "fra/",
- "_root": "/d-portal.org/",
+ "_root": "../",
+ "_site": "{_root}",
  "_sourcename": "fra/.",
  "about_link_text": "À propos\n",
  "about_paragraph10_text": "DI finance le stade actuel de développement et de préparation à la fin de Août 2014, si vous êtes intéressé par une partie du financement de l'élaboration en cours de d- portail s'il vous plaît contacter <a href=\"mailto:support@iatistandard.org\" target=\"_blank\" class=\"co\">support@iatistandard.org</a>\n",

@@ -1,6 +1,6 @@
 {
- "_dirname": "/d-portal.org/",
- "_filename": "/d-portal.org/feedback.html",
+ "_dirname": "{_root}",
+ "_filename": "{_root}feedback.html",
  "_flags": {
   "body": {
    "trim": "ends"
@@ -35,7 +35,8 @@
  },
  "_output_chunkname": "html",
  "_output_filename": "feedback.html",
- "_root": "/d-portal.org/",
+ "_root": "./",
+ "_site": "{_root}",
  "_sourcename": "feedback.^.html",
  "about_link_text": "About\n",
  "about_paragraph10_text": "IATI is funding current development. If you are interested in funding part of the ongoing development of d-portal, or specific pieces of future development, please contact <a href=\"mailto:support@iatistandard.org\" target=\"_blank\" class=\"co\">support@iatistandard.org</a>\n",

@@ -1,6 +1,6 @@
 {
- "_dirname": "/d-portal.org/jpn",
- "_filename": "/d-portal.org/jpn",
+ "_dirname": "{_root}jpn",
+ "_filename": "{_root}jpn",
  "_flags": {
   "body": {
    "trim": "ends"
@@ -33,21 +33,10 @@
    "form": "json"
   }
  },
- "_include_json": {
-  "dirname": "jpn",
-  "exclude": [
-   "cmn",
-   "fra",
-   "hin",
-   "jpn",
-   "spa"
-  ],
-  "include": [
-   ""
-  ]
- },
+ "_include_json": "",
  "_output_filename": "jpn/",
- "_root": "/d-portal.org/",
+ "_root": "../",
+ "_site": "{_root}",
  "_sourcename": "jpn/.",
  "about_link_text": "について\n",
  "about_paragraph10_text": "DIは2014年8月の終わりに開発や準備の現在のステージに資金を提供している。あなたは、d-portalの進行中の開発の資金の一部に興味がある場合\nお問い合わせください <a href=\"mailto:support@iatistandard.org\" target=\"_blank\" class=\"co\">support@iatistandard.org</a>\n",

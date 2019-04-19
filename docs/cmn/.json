@@ -1,6 +1,6 @@
 {
- "_dirname": "/d-portal.org/cmn",
- "_filename": "/d-portal.org/cmn",
+ "_dirname": "{_root}cmn",
+ "_filename": "{_root}cmn",
  "_flags": {
   "body": {
    "trim": "ends"
@@ -33,21 +33,10 @@
    "form": "json"
   }
  },
- "_include_json": {
-  "dirname": "cmn",
-  "exclude": [
-   "cmn",
-   "fra",
-   "hin",
-   "jpn",
-   "spa"
-  ],
-  "include": [
-   ""
-  ]
- },
+ "_include_json": "",
  "_output_filename": "cmn/",
- "_root": "/d-portal.org/",
+ "_root": "../",
+ "_site": "{_root}",
  "_sourcename": "cmn/.",
  "about_link_text": "关于\n",
  "about_paragraph10_text": "DI被开发和准备的现阶段资金至2014年八月底如果您有兴趣的d门户网站的持续发展的资金部分，请联系的<a href=\"mailto:support@iatistandard.org\" target=\"_blank\" class=\"co\">support@iatistandard.org</a>\n",

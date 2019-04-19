@@ -1,6 +1,6 @@
 {
- "_dirname": "/d-portal.org/hin",
- "_filename": "/d-portal.org/hin",
+ "_dirname": "{_root}hin",
+ "_filename": "{_root}hin",
  "_flags": {
   "body": {
    "trim": "ends"
@@ -33,21 +33,10 @@
    "form": "json"
   }
  },
- "_include_json": {
-  "dirname": "hin",
-  "exclude": [
-   "cmn",
-   "fra",
-   "hin",
-   "jpn",
-   "spa"
-  ],
-  "include": [
-   ""
-  ]
- },
+ "_include_json": "",
  "_output_filename": "hin/",
- "_root": "/d-portal.org/",
+ "_root": "../",
+ "_site": "{_root}",
  "_sourcename": "hin/.",
  "about_link_text": "बारे में\n",
  "about_paragraph10_text": "डि अगस्त 2014 के अंत तक विकास और तैयारी के वर्तमान चरण के वित्तपोषण है आप d-portal के चल रहे विकास के वित्त पोषण के हिस्से में रुचि रखते हैं,<a href=\"mailto:support@iatistandard.org\" target=\"_blank\" class=\"co\">support@iatistandard.org</a>\n",
